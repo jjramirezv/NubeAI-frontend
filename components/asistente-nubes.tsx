@@ -27,7 +27,7 @@ export default function AsistenteNubes({ resultadoClasificacion }: Props) {
   const contenedorMensajesRef = useRef<HTMLDivElement>(null);
 
   // URL del backend (puedes sobreescribir con NEXT_PUBLIC_API_URL en .env.local)
-  const urlApiBackend = 'https://nubeai.onrender.com/';
+  const urlApiBackend = 'https://nubeai.onrender.com';
 
   // Auto-scroll
   useEffect(() => {

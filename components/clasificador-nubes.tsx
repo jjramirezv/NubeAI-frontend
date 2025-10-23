@@ -15,7 +15,7 @@ export default function ClasificadorNubes({ onResultado, onReinicio }: Props) {
   const [resultado, setResultado] = useState<{ prediccion: string; confianza: number; descripcion?: string } | null>(null)
   const [error, setError] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
-  const urlApiBackend = 'https://nubeai.onrender.com/'
+  const urlApiBackend = 'https://nubeai.onrender.com'
 
   const reiniciarEstado = () => {
     setImagen(null)
