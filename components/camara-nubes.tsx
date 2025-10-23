@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 // Importamos los íconos del diseño que te gusta
 import { Loader2, CheckCircle, AlertCircle } from "lucide-react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = 'https://nubeai.onrender.com/'";
 
 // --- Tipos locales ---
 type ResultadoLocal = {
